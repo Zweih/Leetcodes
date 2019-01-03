@@ -16,16 +16,16 @@
  * @return {boolean}
  */
 const searchMatrix = (matrix, target) => {
-  if(matrix.length < 1) {
-    return false;
-  }
-  
-  // find row in range
-  let row = 0;
-  
-  while(row + 1 < matrix.length && matrix[row + 1][0] <= target) {
-    row++;
-  }
+	if(matrix.length < 1) {
+		return false;
+	}
+
+	// find row in range
+	let row = 0;
+
+	while(row + 1 < matrix.length && matrix[row + 1][0] <= target) {
+		row++;
+	}
 
 	// binary search on row and return if found or not
 	return bSearch(matrix[row], target);
