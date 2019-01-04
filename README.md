@@ -4,7 +4,7 @@ This is an archive for my Leetcode solutions.
 
 Solutions are sorted in order of their question number. Click the links below to see the code!
 
-They also have listed the exectution time and efficiency compared to other submissions on Leetcode.
+They also have listed the execution time and efficiency compared to other submissions on Leetcode.
 
 Questions and improvement suggestions are welcome!
 
