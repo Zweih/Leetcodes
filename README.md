@@ -3,6 +3,7 @@
 This is an archive for my Leetcode solutions.
 
 Solutions are sorted in order of their question number. 
+
 They also have listed the exectution time and efficiency compared to other submissions on Leetcode.
 
 Questions and improvement suggestions are welcome!
