@@ -11,3 +11,4 @@ Questions and improvement suggestions are welcome!
 - [74. Medium: Search a 2D Matrix](./solutions/74.js) 52ms 100%
 - [200. Medium: Number of Islands](./solutions/200.js) 60ms 100%
 - [297. Hard: Serialize and Deserialize Binary Tree](./solutions/297.js) 88ms 99.67%
+- [954. Medium: Array of Doubled Pairs](./solutions/954.js) 172 ms 82.93%
