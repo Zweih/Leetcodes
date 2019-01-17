@@ -16,32 +16,32 @@
  * @return {number}
  */
 const numIslands = (grid) => {
-  if(!grid || !grid[0]) {
-    return 0;
-  }
-  
-  let isles = 0;
-  const yMax = grid.length;
-  const xMax = grid[0].length;
-  
-  const dfs = (yPos, xPos) => {
-    if(grid[yPos] && grid[yPos][xPos] === '1') {
-      grid[yPos][xPos] = '0';
-      dfs(yPos + 1, xPos);
-      dfs(yPos - 1, xPos);
-      dfs(yPos, xPos + 1);
-      dfs(yPos, xPos - 1);
-    }
-  };
-  
-  for(let y = 0; y < yMax; y++) {
-    for(let x = 0; x < xMax; x++) {
-      if(grid[y][x] === '1'){
-        isles++;
-        dfs(y, x);
-      }
-    }
-  }
-  
-  return isles;
+	if(!grid || !grid[0]) {
+		return 0;
+	}
+	
+	let isles = 0;
+	const yMax = grid.length;
+	const xMax = grid[0].length;
+	
+	const dfs = (yPos, xPos) => {
+		if(grid[yPos] && grid[yPos][xPos] === '1') {
+			grid[yPos][xPos] = '0';
+			dfs(yPos + 1, xPos);
+			dfs(yPos - 1, xPos);
+			dfs(yPos, xPos + 1);
+			dfs(yPos, xPos - 1);
+		}
+	};
+	
+	for(let y = 0; y < yMax; y++) {
+		for(let x = 0; x < xMax; x++) {
+			if(grid[y][x] === '1'){
+				isles++;
+				dfs(y, x);
+			}
+		}
+	}
+	
+	return isles;
 };
