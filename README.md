@@ -13,4 +13,5 @@ Questions and improvement suggestions are welcome!
 - [200. Medium: Number of Islands](./solutions/200.js) 60ms 100%
 - [206. Easy: Reverse Linked List](./solutions/206.js) 56ms 100%
 - [297. Hard: Serialize and Deserialize Binary Tree](./solutions/297.js) 88ms 99.67%
+- [384. Medium: Shuffle an Array](./solutions/384.js) 288ms 93.02%
 - [954. Medium: Array of Doubled Pairs](./solutions/954.js) 172 ms 82.93%
