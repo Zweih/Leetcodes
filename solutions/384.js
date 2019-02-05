@@ -13,7 +13,7 @@
  * @param {number[]} nums
  */
 const Solution = function(nums) {
-  this.current = nums;
+	this.current = nums;
 };
 
 /**
@@ -21,7 +21,7 @@ const Solution = function(nums) {
  * @return {number[]}
  */
 Solution.prototype.reset = function() {
-  return this.current;
+	return this.current;
 };
 
 /**
@@ -29,16 +29,16 @@ Solution.prototype.reset = function() {
  * @return {number[]}
  */
 Solution.prototype.shuffle = function() {
-  const dup = this.current.slice();
+	const dup = this.current.slice();
 
-  for(let i = 0; i < dup.length; i++) {
-    let temp = dup[i];
-    let j = Math.floor(Math.random() * dup.length);
-    dup[i] = dup[j];
-    dup[j] = temp;
-  }
-  
-  return dup;
+	for(let i = 0; i < dup.length; i++) {
+		let temp = dup[i];
+		let j = Math.floor(Math.random() * dup.length);
+		dup[i] = dup[j];
+		dup[j] = temp;
+	}
+	
+	return dup;
 };
 
 /** 
