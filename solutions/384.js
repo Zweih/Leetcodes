@@ -8,7 +8,6 @@
  * Shuffle a set of numbers without duplicates.
  */
 
-
 /**
  * @param {number[]} nums
  */
