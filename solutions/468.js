@@ -48,4 +48,6 @@ const validateIPv4 = (ip) => {
       return false;
   });
 
-  retur
+  return verdict ? IPv4 : neither;
+};
+
