@@ -17,6 +17,6 @@ Questions and improvement suggestions are welcome!
 | 234. | Easy | [Palindrome Linked List](./solutions/234.js) | 48ms | 99.64%|
 | 297. | Hard | [Serialize and Deserialize Binary Tree](./solutions/297.js) | 88ms | 99.67% |
 | 384. | Medium | [Shuffle an Array](./solutions/384.js) | 288ms | 93.02% |
-| 468. | Medium | [Validate IP Address](./solutions/486.js) | 40ms | 98.16% |
+| 468. | Medium | [Validate IP Address](./solutions/468.js) | 40ms | 98.16% |
 | 872. | Easy | [Leaf-Similar Trees](./solutions/872.js) | 68ms | 100% **BEST** |
 | 954. | Medium | [Array of Doubled Pairs](./solutions/954.js) | 172ms | 82.93% |
